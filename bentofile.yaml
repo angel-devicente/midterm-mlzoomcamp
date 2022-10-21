@@ -1,0 +1,8 @@
+service: "predict.py:svc"
+labels:
+  owner: Angel de Vicente
+  project: badminton-prediction
+python:
+  packages:
+    - scikit-learn
+    
